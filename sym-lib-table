@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "marco-ram-board")(type "KiCad")(uri "${KIPRJMOD}/marco-ram-board.kicad_sym")(options "")(descr ""))
+)
