@@ -332,6 +332,10 @@
     [
       "350c6ad0-0bc6-4f18-b2f6-3d5c68349e22",
       "ram"
+    ],
+    [
+      "ef3f0de9-deea-4baf-8cd2-112c438774cf",
+      "mcu-if"
     ]
   ],
   "text_variables": {}
