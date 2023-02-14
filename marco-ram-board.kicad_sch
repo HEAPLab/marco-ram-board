@@ -33,6 +33,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6a9d2020-13b8-4f7b-a5c7-ff1f7242a213)
   )
+  (bus (pts (xy 163.83 127) (xy 208.28 127))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 82af94ee-6177-4f95-9abe-384050ede133)
+  )
 
   (wire (pts (xy 163.83 90.17) (xy 208.28 90.17))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -149,6 +153,10 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid b9e282d5-f358-4a28-a826-f402d01d430d)
     )
+    (pin "USB" bidirectional (at 163.83 127 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 2ae80f45-eda8-467b-85b0-227e06886741)
+    )
   )
 
   (sheet (at 208.28 119.38) (size 27.94 26.67) (fields_autoplaced)
@@ -164,6 +172,14 @@
     (pin "SDMMC" bidirectional (at 208.28 124.46 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 6dd1b3fe-1ca2-49a1-8bc9-27f2e62419bc)
+    )
+    (pin "USB" bidirectional (at 208.28 127 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 6b38a4a7-47e1-4ba1-a01c-f44fe91c78b9)
+    )
+    (pin "IF_USB_5V" output (at 231.14 119.38 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 00096f3d-7f0b-4e6c-adc5-2498b99f96db)
     )
   )
 
@@ -251,6 +267,9 @@
     )
     (path "/350c6ad0-0bc6-4f18-b2f6-3d5c68349e22/91ea01f1-b912-424f-84f4-54c3c866a976"
       (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/938a20f7-34fc-47ce-b6b2-6b2c430fb697"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/c916b37e-aadf-4c0e-9d65-44e77380383d/a1bd1d53-5ec0-4639-b8e3-a14eed9e9b7b"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -557,6 +576,9 @@
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/891d04f7-520f-424d-ac84-7f3c5372b8af"
       (reference "J?") (unit 1) (value "FT_RXD") (footprint "")
+    )
+    (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/ae9015d2-ad65-494b-8560-2887bb26ecab"
+      (reference "J?") (unit 1) (value "USB_B_Micro") (footprint "")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/d227c16f-b65a-435d-8e31-a1af9cfe23a2"
       (reference "J?") (unit 1) (value "CONN_JTAG") (footprint "")
