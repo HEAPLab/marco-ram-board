@@ -33,6 +33,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6a9d2020-13b8-4f7b-a5c7-ff1f7242a213)
   )
+  (bus (pts (xy 163.83 132.08) (xy 208.28 132.08))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 7ab648c7-8236-4b1c-a0ba-ca26b337229a)
+  )
   (bus (pts (xy 163.83 127) (xy 208.28 127))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 82af94ee-6177-4f95-9abe-384050ede133)
@@ -165,6 +169,10 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 7d78e836-c184-4c43-a039-7eabd986c047)
     )
+    (pin "DISP" bidirectional (at 163.83 132.08 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 0ab5bb11-5b5a-4601-9b0e-9689d474fd73)
+    )
   )
 
   (sheet (at 208.28 119.38) (size 27.94 26.67) (fields_autoplaced)
@@ -192,6 +200,10 @@
     (pin "RMII" bidirectional (at 208.28 129.54 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 71e848a9-d749-4122-a05c-40560bdf7316)
+    )
+    (pin "DISP" bidirectional (at 208.28 132.08 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid f6797686-2f95-4ff5-af00-d50adf747bcb)
     )
   )
 
@@ -378,6 +390,12 @@
     )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/33f861f1-777a-4503-868b-8f10f50d7f0e"
       (reference "#PWR058") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/1c58891a-a602-48d4-b506-03ff2a891085"
+      (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/2fabe211-fb38-47fb-8e7a-70d23885c70b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/d5330507-68dd-4843-838d-6de5f3efbd7a"
       (reference "C1") (unit 1) (value "12p") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -677,7 +695,7 @@
       (reference "J8") (unit 1) (value "SD_Card") (footprint "")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/ae9015d2-ad65-494b-8560-2887bb26ecab"
-      (reference "J9") (unit 1) (value "USB_B_Micro") (footprint "")
+      (reference "J9") (unit 1) (value "MCU_USB") (footprint "")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/4ec735f3-4f5e-4962-8fdf-72a76b970c1c"
       (reference "J10") (unit 1) (value "RJ45_Amphenol_RJMG1BD3B8K1ANR") (footprint "Connector_RJ:RJ45_Amphenol_RJMG1BD3B8K1ANR")
@@ -687,6 +705,9 @@
     )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/133ea6c5-38c7-44dc-b237-ec3167a49bff"
       (reference "J12") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
+    )
+    (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/bfd0b80e-7d76-4a61-b654-dd7091e502b6"
+      (reference "J?") (unit 1) (value "CONN_DISP") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/2c98e080-1d30-4b3e-ba85-57f93f65c256"
       (reference "L1") (unit 1) (value "1u") (footprint "")
