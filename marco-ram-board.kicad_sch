@@ -899,22 +899,22 @@
       (reference "R601") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/c916b37e-aadf-4c0e-9d65-44e77380383d/efe93068-fc35-43d2-8763-3cdcf19b93ca"
-      (reference "SW301") (unit 1) (value "SW_RST") (footprint "")
+      (reference "SW301") (unit 1) (value "SW_RST") (footprint "marco-ram-board:DTSMW69N")
     )
     (path "/c916b37e-aadf-4c0e-9d65-44e77380383d/54261074-050d-48f8-bc2d-5d238f30c972"
-      (reference "SW302") (unit 1) (value "SW_BOOT0") (footprint "")
+      (reference "SW302") (unit 1) (value "SW_BOOT0") (footprint "marco-ram-board:DTSMW69N")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/da220396-55aa-4f49-8e3c-02bdafa9814d"
-      (reference "SW501") (unit 1) (value "BTN0") (footprint "")
+      (reference "SW501") (unit 1) (value "BTN0") (footprint "marco-ram-board:DTSMW69N")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/d71b6d92-5539-4d84-bf17-633f8ef176da"
-      (reference "SW502") (unit 1) (value "BTN1") (footprint "")
+      (reference "SW502") (unit 1) (value "BTN1") (footprint "marco-ram-board:DTSMW69N")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/17b7ba61-4404-4774-88b6-b65ccf73bd6d"
-      (reference "SW503") (unit 1) (value "BTN2") (footprint "")
+      (reference "SW503") (unit 1) (value "BTN2") (footprint "marco-ram-board:DTSMW69N")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/3b256020-5407-49ac-85db-08c5a0206452"
-      (reference "SW504") (unit 1) (value "BTN3") (footprint "")
+      (reference "SW504") (unit 1) (value "BTN3") (footprint "marco-ram-board:DTSMW69N")
     )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/8202d5b7-9330-44e4-962e-146bde81e018"
       (reference "SW601") (unit 1) (value "PWR_SW") (footprint "")
