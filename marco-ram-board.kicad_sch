@@ -499,9 +499,6 @@
     (path "/350c6ad0-0bc6-4f18-b2f6-3d5c68349e22/ae9a1b13-b7eb-4153-9f4e-7b8576508e5d"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
-    (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/b16ec419-8d22-4340-9959-47c309deed85"
-      (reference "C?") (unit 1) (value "100u") (footprint "")
-    )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/b39448ac-8c64-4c64-ab8b-aece49cbc6b0"
       (reference "C?") (unit 1) (value "4.7u") (footprint "")
     )
@@ -574,6 +571,9 @@
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/8a14a5a8-72cc-487c-b8f4-f1e6817a2e4d"
       (reference "D?") (unit 1) (value "LED") (footprint "LED_SMD:LED_PLCC-2_3.4x3.0mm_KA")
     )
+    (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/133ea6c5-38c7-44dc-b237-ec3167a49bff"
+      (reference "J?") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
+    )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/25d4c1e6-d563-4e23-9073-1f54c0471376"
       (reference "J?") (unit 1) (value "CONN_12V") (footprint "")
     )
@@ -605,7 +605,7 @@
       (reference "J?") (unit 1) (value "MCU_RST") (footprint "")
     )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/0c8ea7a2-3a34-4f40-b973-13dc7742f0aa"
-      (reference "L?") (unit 1) (value "100u 5A") (footprint "")
+      (reference "L?") (unit 1) (value "68u 5A PE-92114KNL") (footprint "Inductor_THT:L_Toroid_Vertical_L24.6mm_W15.5mm_P11.44mm_Pulse_KM-4")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/2c98e080-1d30-4b3e-ba85-57f93f65c256"
       (reference "L?") (unit 1) (value "1u") (footprint "")
@@ -613,11 +613,11 @@
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/5d2560e9-13b6-464e-a66a-3fea9b597da1"
       (reference "L?") (unit 1) (value "1u") (footprint "")
     )
-    (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/ccedfed5-2ea4-44be-896a-972029ed32da"
-      (reference "L?") (unit 1) (value "1u 1A") (footprint "")
-    )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/54089393-a709-443f-90e2-48a41f7b660e"
       (reference "Q?") (unit 1) (value "MMBT3906") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/f4de4806-43b2-4861-8753-d29e885db1d8"
+      (reference "Q?") (unit 1) (value "DMP3037LSS") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/c916b37e-aadf-4c0e-9d65-44e77380383d/096221bc-6673-4606-a2c4-0e04ae530489"
       (reference "R?") (unit 1) (value "220") (footprint "")
