@@ -1323,7 +1323,7 @@
     (property "Reference" "R35" (id 0) (at 232.41 82.5499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "330" (id 1) (at 232.41 85.0899 0)
+    (property "Value" "4.7k" (id 1) (at 232.41 85.0899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 228.092 83.82 90)
