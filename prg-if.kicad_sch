@@ -2845,7 +2845,7 @@
     (uuid d227c16f-b65a-435d-8e31-a1af9cfe23a2)
     (property "Reference" "J206" (id 0) (at 241.3 49.6402 0))
     (property "Value" "CONN_JTAG" (id 1) (at 241.3 52.1771 0))
-    (property "Footprint" "" (id 2) (at 240.03 64.77 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" (id 2) (at 240.03 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 240.03 64.77 0)

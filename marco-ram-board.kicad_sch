@@ -740,7 +740,7 @@
       (reference "J205") (unit 1) (value "FT_RXD") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/d227c16f-b65a-435d-8e31-a1af9cfe23a2"
-      (reference "J206") (unit 1) (value "CONN_JTAG") (footprint "")
+      (reference "J206") (unit 1) (value "CONN_JTAG") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical")
     )
     (path "/c916b37e-aadf-4c0e-9d65-44e77380383d/e06ee3cc-f411-468d-9389-26996fba2871"
       (reference "J301") (unit 1) (value "CONN_MCU_SERIAL") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical")
@@ -752,7 +752,7 @@
       (reference "J501") (unit 1) (value "MCU_USB") (footprint "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/3c44c20d-a122-461d-99da-75d449195a20"
-      (reference "J502") (unit 1) (value "SD_Card") (footprint "")
+      (reference "J502") (unit 1) (value "SD_Card") (footprint "Connector_Card:SD_Hirose_DM1AA_SF_PEJ82")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/bfd0b80e-7d76-4a61-b654-dd7091e502b6"
       (reference "J503") (unit 1) (value "CONN_DISP") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical")
@@ -761,7 +761,7 @@
       (reference "J504") (unit 1) (value "RJ45_Amphenol_RJMG1BD3B8K1ANR") (footprint "Connector_RJ:RJ45_Amphenol_RJMG1BD3B8K1ANR")
     )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/25d4c1e6-d563-4e23-9073-1f54c0471376"
-      (reference "J601") (unit 1) (value "CONN_12V") (footprint "")
+      (reference "J601") (unit 1) (value "CONN_12V") (footprint "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal")
     )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/133ea6c5-38c7-44dc-b237-ec3167a49bff"
       (reference "J602") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
