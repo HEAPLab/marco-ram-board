@@ -917,7 +917,7 @@
       (reference "SW504") (unit 1) (value "BTN3") (footprint "marco-ram-board:DTSMW69N")
     )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/8202d5b7-9330-44e4-962e-146bde81e018"
-      (reference "SW601") (unit 1) (value "PWR_SW") (footprint "")
+      (reference "SW601") (unit 1) (value "PWR_SW") (footprint "marco-ram-board:SW_CuK_L101xxxMS02x_SPST_Straight")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/a85ab2dd-ae80-4f7d-b111-8fdaab47915f"
       (reference "U201") (unit 1) (value "FT2232HL") (footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm")
