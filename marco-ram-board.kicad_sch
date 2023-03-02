@@ -756,8 +756,8 @@
     (path "/c916b37e-aadf-4c0e-9d65-44e77380383d/e06ee3cc-f411-468d-9389-26996fba2871"
       (reference "J301") (unit 1) (value "CONN_MCU_SERIAL") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical")
     )
-    (path "/c916b37e-aadf-4c0e-9d65-44e77380383d/b99193e7-3576-43ab-8221-86d5b1ea01be"
-      (reference "J302") (unit 1) (value "Conn_01x13_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x13_P2.54mm_Vertical")
+    (path "/c916b37e-aadf-4c0e-9d65-44e77380383d/c60ad48a-d2ba-493e-ad42-6442e113ce62"
+      (reference "J302") (unit 1) (value "EXT_CONN") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/ae9015d2-ad65-494b-8560-2887bb26ecab"
       (reference "J501") (unit 1) (value "MCU_USB") (footprint "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal")
@@ -907,7 +907,7 @@
       (reference "R525") (unit 1) (value "4.7") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/36faf224-6d62-4451-a816-f4a91175efd8"
-      (reference "R526") (unit 1) (value "10k") (footprint "")
+      (reference "R526") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/a0730651-6647-4a63-a318-43f3d386b902"
       (reference "R601") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")

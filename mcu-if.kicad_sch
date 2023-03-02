@@ -3375,7 +3375,7 @@
     (uuid 36faf224-6d62-4451-a816-f4a91175efd8)
     (property "Reference" "R526" (id 0) (at 101.6 80.01 90))
     (property "Value" "10k" (id 1) (at 101.6 77.8311 90))
-    (property "Footprint" "" (id 2) (at 101.6 81.788 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 101.6 81.788 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 101.6 80.01 0)
