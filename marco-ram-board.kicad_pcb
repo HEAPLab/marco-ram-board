@@ -58,7 +58,6 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
-    (grid_origin 90.8 139.6)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
