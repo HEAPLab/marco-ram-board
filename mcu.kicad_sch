@@ -5118,7 +5118,7 @@
     (property "Value" "25MHz" (id 1) (at 127 176.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" (id 2) (at 120.65 175.26 0)
+    (property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" (id 2) (at 120.65 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 120.65 175.26 0)

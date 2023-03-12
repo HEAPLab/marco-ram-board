@@ -845,6 +845,12 @@
     (path "/3febbed2-c5e0-4559-a7ac-28c1e851d019"
       (reference "H104") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
+    (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/f6188bc0-7257-48e4-82f4-2ff53b07a57a"
+      (reference "H501") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
+    )
+    (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/7c496a5b-3b11-4aa2-b0f5-6702af71b5e3"
+      (reference "H502") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
+    )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/347d33d9-c321-4d8b-982e-19c6ba84f804"
       (reference "J201") (unit 1) (value "PRG_USB") (footprint "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal")
     )
@@ -1083,10 +1089,10 @@
       (reference "U601") (unit 1) (value "LM2576S-3.3") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/da35fec7-680a-40f8-8f1c-0f1abcd23b58"
-      (reference "Y201") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering")
+      (reference "Y201") (unit 1) (value "12MHz") (footprint "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm")
     )
     (path "/c916b37e-aadf-4c0e-9d65-44e77380383d/ce6a9af7-c99e-4f9d-ab4c-83f8f853b077"
-      (reference "Y301") (unit 1) (value "25MHz") (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering")
+      (reference "Y301") (unit 1) (value "25MHz") (footprint "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm")
     )
   )
 )

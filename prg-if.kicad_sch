@@ -2909,7 +2909,7 @@
     (uuid da35fec7-680a-40f8-8f1c-0f1abcd23b58)
     (property "Reference" "Y201" (id 0) (at 86.36 148.5931 90))
     (property "Value" "12MHz" (id 1) (at 86.36 151.13 90))
-    (property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" (id 2) (at 76.2 149.86 0)
+    (property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm" (id 2) (at 76.2 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 76.2 149.86 0)
