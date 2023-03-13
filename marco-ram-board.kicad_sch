@@ -879,7 +879,7 @@
       (reference "J501") (unit 1) (value "MCU_USB") (footprint "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/3c44c20d-a122-461d-99da-75d449195a20"
-      (reference "J502") (unit 1) (value "SD_Card") (footprint "Connector_Card:SD_Hirose_DM1AA_SF_PEJ82")
+      (reference "J502") (unit 1) (value "SD_Card") (footprint "marco-ram-board:SD_Hirose_DM1AA_SF_PEJ82")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/bfd0b80e-7d76-4a61-b654-dd7091e502b6"
       (reference "J503") (unit 1) (value "CONN_DISP") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical")
@@ -1028,6 +1028,12 @@
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/36faf224-6d62-4451-a816-f4a91175efd8"
       (reference "R526") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
+    (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/c5452cad-46fa-47ec-9f8a-e9c264e8ab8f"
+      (reference "R527") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/777ba16e-2e42-415e-a448-1d43638ba408"
+      (reference "R528") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/a0730651-6647-4a63-a318-43f3d386b902"
       (reference "R601") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
@@ -1050,7 +1056,7 @@
       (reference "SW504") (unit 1) (value "BTN3") (footprint "marco-ram-board:DTSMW69N")
     )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/8202d5b7-9330-44e4-962e-146bde81e018"
-      (reference "SW601") (unit 1) (value "PWR_SW") (footprint "marco-ram-board:SW_CuK_L101xxxMS02x_SPST_Straight")
+      (reference "SW601") (unit 1) (value "PWR_SW") (footprint "marco-ram-board:SW_Slide_CuK_1101M2xxAxx2_SPDT_RightAngle")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/a85ab2dd-ae80-4f7d-b111-8fdaab47915f"
       (reference "U201") (unit 1) (value "FT2232HL") (footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm")
