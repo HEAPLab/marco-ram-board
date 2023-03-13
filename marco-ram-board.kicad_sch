@@ -888,10 +888,10 @@
       (reference "J504") (unit 1) (value "RJ45_Amphenol_RJMG1BD3B8K1ANR") (footprint "Connector_RJ:RJ45_Amphenol_RJMG1BD3B8K1ANR")
     )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/25d4c1e6-d563-4e23-9073-1f54c0471376"
-      (reference "J601") (unit 1) (value "CONN_12V") (footprint "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal")
+      (reference "J601") (unit 1) (value "CONN_JACK_12V") (footprint "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal")
     )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/133ea6c5-38c7-44dc-b237-ec3167a49bff"
-      (reference "J602") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
+      (reference "J602") (unit 1) (value "CONN_SCREW_12V") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/24de096d-a0f8-460b-bafa-eea3402d786b"
       (reference "JP501") (unit 1) (value "MCU_USB_ID") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
