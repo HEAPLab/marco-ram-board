@@ -5059,7 +5059,7 @@
     (property "Reference" "J302" (id 0) (at 156.9212 170.6153 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "EXT_CONN" (id 1) (at 156.9212 173.1522 0)
+    (property "Value" "CONN_EXT" (id 1) (at 156.9212 173.1522 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical" (id 2) (at 156.21 171.45 0)
