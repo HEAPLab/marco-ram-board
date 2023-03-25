@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MARCO RAM Board")
+    (rev "1")
+    (comment 9 "MCU Interfaces")
+  )
+
   (lib_symbols
     (symbol "Connector:RJ45_Amphenol_RJMG1BD3B8K1ANR" (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 19.05 15.24 0)

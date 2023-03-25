@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MARCO RAM Board")
+    (rev "1")
+    (comment 9 "Root sheet")
+  )
+
   (lib_symbols
     (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "H" (id 0) (at 0 5.08 0)

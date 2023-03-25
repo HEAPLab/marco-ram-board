@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MARCO RAM Board")
+    (rev "1")
+    (comment 9 "SDRAM")
+  )
+
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
