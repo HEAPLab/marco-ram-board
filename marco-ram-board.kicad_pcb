@@ -338,6 +338,7 @@
   (net 241 "unconnected-(SW601-Pad1)")
   (net 242 "/mcu/SDRAM.D16")
   (net 243 "/mcu/SDRAM.D18")
+  (net 244 "unconnected-(U301-Pad32)")
 
   (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp 07c6f4a5-8576-4b84-9b0c-97b76315176e)
@@ -7217,7 +7218,7 @@
     (pad "31" smd roundrect (at -12.675 4.25 45) (size 1.5 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 8 "/mcu/~{RESET}") (pinfunction "NRST") (pintype "input") (tstamp 9622b5db-b559-48b5-8b8d-ebe3dbc93502))
     (pad "32" smd roundrect (at -12.675 4.75 45) (size 1.5 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 167 "/mcu/SDRAM.~{WE}") (pinfunction "PC0") (pintype "bidirectional") (tstamp 4b8ef406-2ab1-4e9f-9a1b-ff83d9297331))
+      (net 244 "unconnected-(U301-Pad32)") (pinfunction "PC0") (pintype "bidirectional") (tstamp 4b8ef406-2ab1-4e9f-9a1b-ff83d9297331))
     (pad "33" smd roundrect (at -12.675 5.25 45) (size 1.5 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 168 "/mcu-if/RMII.MDC") (pinfunction "PC1") (pintype "bidirectional") (tstamp e66420f8-40a3-423d-8f00-3acb0fe277f7))
     (pad "34" smd roundrect (at -12.675 5.75 45) (size 1.5 0.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
