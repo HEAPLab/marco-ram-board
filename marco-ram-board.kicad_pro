@@ -432,67 +432,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SDRAM",
-        "nets": [
-          "/mcu/SDRAM.A0",
-          "/mcu/SDRAM.A1",
-          "/mcu/SDRAM.A10",
-          "/mcu/SDRAM.A11",
-          "/mcu/SDRAM.A12",
-          "/mcu/SDRAM.A2",
-          "/mcu/SDRAM.A3",
-          "/mcu/SDRAM.A4",
-          "/mcu/SDRAM.A5",
-          "/mcu/SDRAM.A6",
-          "/mcu/SDRAM.A7",
-          "/mcu/SDRAM.A8",
-          "/mcu/SDRAM.A9",
-          "/mcu/SDRAM.BA0",
-          "/mcu/SDRAM.BA1",
-          "/mcu/SDRAM.CKE0",
-          "/mcu/SDRAM.CKE1",
-          "/mcu/SDRAM.CLK",
-          "/mcu/SDRAM.D0",
-          "/mcu/SDRAM.D1",
-          "/mcu/SDRAM.D10",
-          "/mcu/SDRAM.D11",
-          "/mcu/SDRAM.D12",
-          "/mcu/SDRAM.D13",
-          "/mcu/SDRAM.D14",
-          "/mcu/SDRAM.D15",
-          "/mcu/SDRAM.D16",
-          "/mcu/SDRAM.D17",
-          "/mcu/SDRAM.D18",
-          "/mcu/SDRAM.D19",
-          "/mcu/SDRAM.D2",
-          "/mcu/SDRAM.D20",
-          "/mcu/SDRAM.D21",
-          "/mcu/SDRAM.D22",
-          "/mcu/SDRAM.D23",
-          "/mcu/SDRAM.D24",
-          "/mcu/SDRAM.D25",
-          "/mcu/SDRAM.D26",
-          "/mcu/SDRAM.D27",
-          "/mcu/SDRAM.D28",
-          "/mcu/SDRAM.D29",
-          "/mcu/SDRAM.D3",
-          "/mcu/SDRAM.D30",
-          "/mcu/SDRAM.D31",
-          "/mcu/SDRAM.D4",
-          "/mcu/SDRAM.D5",
-          "/mcu/SDRAM.D6",
-          "/mcu/SDRAM.D7",
-          "/mcu/SDRAM.D8",
-          "/mcu/SDRAM.D9",
-          "/mcu/SDRAM.~{BL0}",
-          "/mcu/SDRAM.~{BL1}",
-          "/mcu/SDRAM.~{BL2}",
-          "/mcu/SDRAM.~{BL3}",
-          "/mcu/SDRAM.~{CAS}",
-          "/mcu/SDRAM.~{CS0}",
-          "/mcu/SDRAM.~{CS1}",
-          "/mcu/SDRAM.~{RAS}",
-          "/mcu/SDRAM.~{WE}"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
@@ -506,7 +446,244 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.A0"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.A1"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.A10"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.A11"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.A12"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.A2"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.A3"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.A4"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.A5"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.A6"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.A7"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.A8"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.A9"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.BA0"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.BA1"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.CKE0"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.CKE1"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.CLK"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D0"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D1"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D10"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D11"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D12"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D13"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D14"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D15"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D16"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D17"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D18"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D19"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D2"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D20"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D21"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D22"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D23"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D24"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D25"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D26"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D27"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D28"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D29"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D3"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D30"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D31"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D4"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D5"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D6"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D7"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D8"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.D9"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.~{BL0}"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.~{BL1}"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.~{BL2}"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.~{BL3}"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.~{CAS}"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.~{CS0}"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.~{CS1}"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.~{RAS}"
+      },
+      {
+        "netclass": "SDRAM",
+        "pattern": "/mcu/SDRAM.~{WE}"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
