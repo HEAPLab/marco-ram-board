@@ -39,9 +39,9 @@
   (pad "1" thru_hole rect (at 0 0) (size 3.7084 3.7084) (drill 1.8542) (layers *.Cu *.Mask) (tstamp 73421228-c812-4927-8661-e333dac21414))
   (pad "2" thru_hole circle (at 4.699 0) (size 3.7084 3.7084) (drill 1.905) (layers *.Cu *.Mask) (tstamp 5bdb0794-9457-4968-9b3f-3191e92a057c))
   (pad "3" thru_hole circle (at 9.398 0) (size 3.7084 3.7084) (drill 1.8542) (layers *.Cu *.Mask) (tstamp 45f71020-3001-4a5c-a62b-9f46d0dd47af))
-  (model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_CuK_JS202011CQN_DPDT_Straight.wrl"
-    (offset (xyz -33.528 7.62 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+  (model "${KIPRJMOD}/3dmodels/1101M2S3ABE2.wrl"
+    (offset (xyz 4.7 -3.6 3.5))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz 0 180 180))
   )
 )

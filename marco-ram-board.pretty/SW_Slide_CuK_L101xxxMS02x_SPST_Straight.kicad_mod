@@ -27,9 +27,4 @@
   (fp_line (start -4.953 8.255) (end -4.953 0.15875) (layer "F.Fab") (width 0.1) (tstamp d3b0a6ff-2114-41ab-b0a6-3e9a58cf38f2))
   (pad "1" thru_hole rect (at 0 0) (size 3 3) (drill 1.651) (layers *.Cu *.Mask) (tstamp 73421228-c812-4927-8661-e333dac21414))
   (pad "2" thru_hole oval (at 4.5974 0) (size 3 3) (drill 1.651) (layers *.Cu *.Mask) (tstamp 5bdb0794-9457-4968-9b3f-3191e92a057c))
-  (model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_CuK_JS202011CQN_DPDT_Straight.wrl"
-    (offset (xyz -4.953 2.54 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
