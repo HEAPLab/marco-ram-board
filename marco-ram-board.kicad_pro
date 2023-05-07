@@ -432,19 +432,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Btn/Disp",
-        "nets": [
-          "/mcu-if/BTN0",
-          "/mcu-if/BTN1",
-          "/mcu-if/BTN2",
-          "/mcu-if/BTN3",
-          "/mcu-if/DISP.CS",
-          "/mcu-if/DISP.DC",
-          "/mcu-if/DISP.MOSI",
-          "/mcu-if/DISP.SCLK",
-          "/mcu-if/DISP.~{RST}",
-          "/mcu-if/LED0",
-          "/mcu-if/LED1"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
@@ -462,17 +450,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Debug",
-        "nets": [
-          "/mcu/BOOT0",
-          "/mcu/JTAG.TCK",
-          "/mcu/JTAG.TDI",
-          "/mcu/JTAG.TDO",
-          "/mcu/JTAG.TMS",
-          "/mcu/JTAG.TRST",
-          "/mcu/RXD",
-          "/mcu/TXD",
-          "/mcu/~{RESET}"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
@@ -490,21 +468,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Ext",
-        "nets": [
-          "/mcu/EXT1",
-          "/mcu/EXT10",
-          "/mcu/EXT11",
-          "/mcu/EXT12",
-          "/mcu/EXT13",
-          "/mcu/EXT2",
-          "/mcu/EXT3",
-          "/mcu/EXT4",
-          "/mcu/EXT5",
-          "/mcu/EXT6",
-          "/mcu/EXT7",
-          "/mcu/EXT8",
-          "/mcu/EXT9"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
@@ -522,12 +486,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "nets": [
-          "/mcu-if/IF_USB_5V",
-          "/prg-if/PRG_USB_5V",
-          "GND",
-          "VDD"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
@@ -545,20 +504,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RMII",
-        "nets": [
-          "/mcu-if/RMII.CRSDV",
-          "/mcu-if/RMII.LED",
-          "/mcu-if/RMII.MCO1",
-          "/mcu-if/RMII.MDC",
-          "/mcu-if/RMII.MDIO",
-          "/mcu-if/RMII.REFCLK",
-          "/mcu-if/RMII.RXD0",
-          "/mcu-if/RMII.RXD1",
-          "/mcu-if/RMII.TXD0",
-          "/mcu-if/RMII.TXD1",
-          "/mcu-if/RMII.TXEN",
-          "/mcu-if/RMII.~{RST}"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
@@ -576,16 +522,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SDMMC",
-        "nets": [
-          "/mcu-if/SDMMC.CD",
-          "/mcu-if/SDMMC.CK",
-          "/mcu-if/SDMMC.CMD",
-          "/mcu-if/SDMMC.D0",
-          "/mcu-if/SDMMC.D1",
-          "/mcu-if/SDMMC.D2",
-          "/mcu-if/SDMMC.D3",
-          "/mcu-if/SDMMC.WP"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
@@ -603,67 +540,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SDRAM",
-        "nets": [
-          "/mcu/SDRAM.A0",
-          "/mcu/SDRAM.A1",
-          "/mcu/SDRAM.A10",
-          "/mcu/SDRAM.A11",
-          "/mcu/SDRAM.A12",
-          "/mcu/SDRAM.A2",
-          "/mcu/SDRAM.A3",
-          "/mcu/SDRAM.A4",
-          "/mcu/SDRAM.A5",
-          "/mcu/SDRAM.A6",
-          "/mcu/SDRAM.A7",
-          "/mcu/SDRAM.A8",
-          "/mcu/SDRAM.A9",
-          "/mcu/SDRAM.BA0",
-          "/mcu/SDRAM.BA1",
-          "/mcu/SDRAM.CKE0",
-          "/mcu/SDRAM.CKE1",
-          "/mcu/SDRAM.CLK",
-          "/mcu/SDRAM.D0",
-          "/mcu/SDRAM.D1",
-          "/mcu/SDRAM.D10",
-          "/mcu/SDRAM.D11",
-          "/mcu/SDRAM.D12",
-          "/mcu/SDRAM.D13",
-          "/mcu/SDRAM.D14",
-          "/mcu/SDRAM.D15",
-          "/mcu/SDRAM.D16",
-          "/mcu/SDRAM.D17",
-          "/mcu/SDRAM.D18",
-          "/mcu/SDRAM.D19",
-          "/mcu/SDRAM.D2",
-          "/mcu/SDRAM.D20",
-          "/mcu/SDRAM.D21",
-          "/mcu/SDRAM.D22",
-          "/mcu/SDRAM.D23",
-          "/mcu/SDRAM.D24",
-          "/mcu/SDRAM.D25",
-          "/mcu/SDRAM.D26",
-          "/mcu/SDRAM.D27",
-          "/mcu/SDRAM.D28",
-          "/mcu/SDRAM.D29",
-          "/mcu/SDRAM.D3",
-          "/mcu/SDRAM.D30",
-          "/mcu/SDRAM.D31",
-          "/mcu/SDRAM.D4",
-          "/mcu/SDRAM.D5",
-          "/mcu/SDRAM.D6",
-          "/mcu/SDRAM.D7",
-          "/mcu/SDRAM.D8",
-          "/mcu/SDRAM.D9",
-          "/mcu/SDRAM.~{BL0}",
-          "/mcu/SDRAM.~{BL1}",
-          "/mcu/SDRAM.~{BL2}",
-          "/mcu/SDRAM.~{BL3}",
-          "/mcu/SDRAM.~{CAS}",
-          "/mcu/SDRAM.~{CS0}",
-          "/mcu/SDRAM.~{CS1}",
-          "/mcu/SDRAM.~{RAS}",
-          "/mcu/SDRAM.~{WE}"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
@@ -681,12 +558,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "nets": [
-          "/mcu-if/USB.DM",
-          "/mcu-if/USB.DP",
-          "/mcu-if/USB.ID",
-          "/mcu-if/USB.VBUS"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
@@ -701,6 +573,234 @@
     "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": [
+      {
+        "netclass": "Btn/Disp",
+        "pattern": "/mcu-if/BTN0"
+      },
+      {
+        "netclass": "Btn/Disp",
+        "pattern": "/mcu-if/BTN1"
+      },
+      {
+        "netclass": "Btn/Disp",
+        "pattern": "/mcu-if/BTN2"
+      },
+      {
+        "netclass": "Btn/Disp",
+        "pattern": "/mcu-if/BTN3"
+      },
+      {
+        "netclass": "Btn/Disp",
+        "pattern": "/mcu-if/DISP.CS"
+      },
+      {
+        "netclass": "Btn/Disp",
+        "pattern": "/mcu-if/DISP.DC"
+      },
+      {
+        "netclass": "Btn/Disp",
+        "pattern": "/mcu-if/DISP.MOSI"
+      },
+      {
+        "netclass": "Btn/Disp",
+        "pattern": "/mcu-if/DISP.SCLK"
+      },
+      {
+        "netclass": "Btn/Disp",
+        "pattern": "/mcu-if/DISP.~{RST}"
+      },
+      {
+        "netclass": "Btn/Disp",
+        "pattern": "/mcu-if/LED0"
+      },
+      {
+        "netclass": "Btn/Disp",
+        "pattern": "/mcu-if/LED1"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "/mcu/BOOT0"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "/mcu/JTAG.TCK"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "/mcu/JTAG.TDI"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "/mcu/JTAG.TDO"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "/mcu/JTAG.TMS"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "/mcu/JTAG.TRST"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "/mcu/RXD"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "/mcu/TXD"
+      },
+      {
+        "netclass": "Debug",
+        "pattern": "/mcu/~{RESET}"
+      },
+      {
+        "netclass": "Ext",
+        "pattern": "/mcu/EXT1"
+      },
+      {
+        "netclass": "Ext",
+        "pattern": "/mcu/EXT10"
+      },
+      {
+        "netclass": "Ext",
+        "pattern": "/mcu/EXT11"
+      },
+      {
+        "netclass": "Ext",
+        "pattern": "/mcu/EXT12"
+      },
+      {
+        "netclass": "Ext",
+        "pattern": "/mcu/EXT13"
+      },
+      {
+        "netclass": "Ext",
+        "pattern": "/mcu/EXT2"
+      },
+      {
+        "netclass": "Ext",
+        "pattern": "/mcu/EXT3"
+      },
+      {
+        "netclass": "Ext",
+        "pattern": "/mcu/EXT4"
+      },
+      {
+        "netclass": "Ext",
+        "pattern": "/mcu/EXT5"
+      },
+      {
+        "netclass": "Ext",
+        "pattern": "/mcu/EXT6"
+      },
+      {
+        "netclass": "Ext",
+        "pattern": "/mcu/EXT7"
+      },
+      {
+        "netclass": "Ext",
+        "pattern": "/mcu/EXT8"
+      },
+      {
+        "netclass": "Ext",
+        "pattern": "/mcu/EXT9"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/mcu-if/IF_USB_5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/prg-if/PRG_USB_5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VDD"
+      },
+      {
+        "netclass": "RMII",
+        "pattern": "/mcu-if/RMII.CRSDV"
+      },
+      {
+        "netclass": "RMII",
+        "pattern": "/mcu-if/RMII.LED"
+      },
+      {
+        "netclass": "RMII",
+        "pattern": "/mcu-if/RMII.MCO1"
+      },
+      {
+        "netclass": "RMII",
+        "pattern": "/mcu-if/RMII.MDC"
+      },
+      {
+        "netclass": "RMII",
+        "pattern": "/mcu-if/RMII.MDIO"
+      },
+      {
+        "netclass": "RMII",
+        "pattern": "/mcu-if/RMII.REFCLK"
+      },
+      {
+        "netclass": "RMII",
+        "pattern": "/mcu-if/RMII.RXD0"
+      },
+      {
+        "netclass": "RMII",
+        "pattern": "/mcu-if/RMII.RXD1"
+      },
+      {
+        "netclass": "RMII",
+        "pattern": "/mcu-if/RMII.TXD0"
+      },
+      {
+        "netclass": "RMII",
+        "pattern": "/mcu-if/RMII.TXD1"
+      },
+      {
+        "netclass": "RMII",
+        "pattern": "/mcu-if/RMII.TXEN"
+      },
+      {
+        "netclass": "RMII",
+        "pattern": "/mcu-if/RMII.~{RST}"
+      },
+      {
+        "netclass": "SDMMC",
+        "pattern": "/mcu-if/SDMMC.CD"
+      },
+      {
+        "netclass": "SDMMC",
+        "pattern": "/mcu-if/SDMMC.CK"
+      },
+      {
+        "netclass": "SDMMC",
+        "pattern": "/mcu-if/SDMMC.CMD"
+      },
+      {
+        "netclass": "SDMMC",
+        "pattern": "/mcu-if/SDMMC.D0"
+      },
+      {
+        "netclass": "SDMMC",
+        "pattern": "/mcu-if/SDMMC.D1"
+      },
+      {
+        "netclass": "SDMMC",
+        "pattern": "/mcu-if/SDMMC.D2"
+      },
+      {
+        "netclass": "SDMMC",
+        "pattern": "/mcu-if/SDMMC.D3"
+      },
+      {
+        "netclass": "SDMMC",
+        "pattern": "/mcu-if/SDMMC.WP"
+      },
       {
         "netclass": "SDRAM",
         "pattern": "/mcu/SDRAM.A0"
@@ -936,6 +1036,22 @@
       {
         "netclass": "SDRAM",
         "pattern": "/mcu/SDRAM.~{WE}"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/mcu-if/USB.DM"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/mcu-if/USB.DP"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/mcu-if/USB.ID"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/mcu-if/USB.VBUS"
       }
     ]
   },
