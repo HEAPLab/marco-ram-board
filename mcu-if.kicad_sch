@@ -4476,7 +4476,7 @@
     (pin "2" (uuid 850952b6-2189-4aa1-9ddd-a1a009a5d13e))
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 72.39 118.11 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 72.39 118.11 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e1b295c1-338e-41bc-95b8-264f9e11bff9)
     (property "Reference" "C501" (id 0) (at 74.93 115.57 0)
