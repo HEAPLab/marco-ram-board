@@ -356,6 +356,9 @@
   )
 
   (symbol_instances
+    (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/b81b2b9c-27d1-47cd-936a-05c88c0c9a8d"
+      (reference "#PWR0101") (unit 1) (value "VDD") (footprint "")
+    )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/083f3897-5f0f-47c6-921f-8dbbfcd01bac"
       (reference "#PWR0201") (unit 1) (value "GND") (footprint "")
     )
