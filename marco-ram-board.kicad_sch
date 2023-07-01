@@ -942,7 +942,7 @@
       (reference "R209") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/6cb3ce68-780a-4dae-8ec1-dabd7c5a603f"
-      (reference "R210") (unit 1) (value "330") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R210") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/92aa2731-490d-4a6e-8960-52e3c08d728a"
       (reference "R211") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
