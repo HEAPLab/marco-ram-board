@@ -861,49 +861,49 @@
       (reference "H502") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/347d33d9-c321-4d8b-982e-19c6ba84f804"
-      (reference "J201") (unit 1) (value "PRG_USB") (footprint "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal")
+      (reference "J201") (unit 1) (value "USB_Mini-B") (footprint "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/ff34ddd4-96f6-4d61-9953-764ca5fe05de"
-      (reference "J202") (unit 1) (value "MCU_RST") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J202") (unit 1) (value "PinHeader_2.54mm_1x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/fee1fd9e-adb7-48ab-9d56-1c178f8c0205"
-      (reference "J203") (unit 1) (value "MCU_BOOT0") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J203") (unit 1) (value "PinHeader_2.54mm_1x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/4662dd85-cd12-426a-932f-08005ac1da72"
-      (reference "J204") (unit 1) (value "FT_TXD") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J204") (unit 1) (value "PinHeader_2.54mm_1x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/891d04f7-520f-424d-ac84-7f3c5372b8af"
-      (reference "J205") (unit 1) (value "FT_RXD") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+      (reference "J205") (unit 1) (value "PinHeader_2.54mm_1x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/d227c16f-b65a-435d-8e31-a1af9cfe23a2"
-      (reference "J206") (unit 1) (value "CONN_JTAG") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical")
+      (reference "J206") (unit 1) (value "PinHeader_2.54mm_2x10") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical")
     )
     (path "/c916b37e-aadf-4c0e-9d65-44e77380383d/e06ee3cc-f411-468d-9389-26996fba2871"
-      (reference "J301") (unit 1) (value "CONN_MCU_SERIAL") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical")
+      (reference "J301") (unit 1) (value "PinSocket_2.54mm_1x05") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical")
     )
     (path "/c916b37e-aadf-4c0e-9d65-44e77380383d/c60ad48a-d2ba-493e-ad42-6442e113ce62"
-      (reference "J302") (unit 1) (value "CONN_EXT") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical")
+      (reference "J302") (unit 1) (value "PinSocket_2.54mm_1x15") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/ae9015d2-ad65-494b-8560-2887bb26ecab"
-      (reference "J501") (unit 1) (value "MCU_USB") (footprint "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal")
+      (reference "J501") (unit 1) (value "USB_Mini-B") (footprint "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/3c44c20d-a122-461d-99da-75d449195a20"
       (reference "J502") (unit 1) (value "SD_Card") (footprint "marco-ram-board:SD_Hirose_DM1AA_SF_PEJ82")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/bfd0b80e-7d76-4a61-b654-dd7091e502b6"
-      (reference "J503") (unit 1) (value "CONN_DISP") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical")
+      (reference "J503") (unit 1) (value "PinSocket_2.54mm_2x08") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/4ec735f3-4f5e-4962-8fdf-72a76b970c1c"
       (reference "J504") (unit 1) (value "RJ45_Amphenol_RJMG1BD3B8K1ANR") (footprint "Connector_RJ:RJ45_Amphenol_RJMG1BD3B8K1ANR")
     )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/25d4c1e6-d563-4e23-9073-1f54c0471376"
-      (reference "J601") (unit 1) (value "CONN_JACK_12V") (footprint "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal")
+      (reference "J601") (unit 1) (value "BarrelJack_CUI_PJ-063AH_Horizontal") (footprint "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal")
     )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/133ea6c5-38c7-44dc-b237-ec3167a49bff"
-      (reference "J602") (unit 1) (value "CONN_SCREW_12V") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
+      (reference "J602") (unit 1) (value "TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/24de096d-a0f8-460b-bafa-eea3402d786b"
-      (reference "JP501") (unit 1) (value "MCU_USB_ID") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+      (reference "JP501") (unit 1) (value "Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/0c8ea7a2-3a34-4f40-b973-13dc7742f0aa"
       (reference "L601") (unit 1) (value "68u 5A") (footprint "Inductor_THT:L_Toroid_Vertical_L24.6mm_W15.5mm_P11.44mm_Pulse_KM-4")
@@ -1056,25 +1056,25 @@
       (reference "R601") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/c916b37e-aadf-4c0e-9d65-44e77380383d/efe93068-fc35-43d2-8763-3cdcf19b93ca"
-      (reference "SW301") (unit 1) (value "SW_RST") (footprint "marco-ram-board:DTSMW69N")
+      (reference "SW301") (unit 1) (value "DTSMW69N") (footprint "marco-ram-board:DTSMW69N")
     )
     (path "/c916b37e-aadf-4c0e-9d65-44e77380383d/54261074-050d-48f8-bc2d-5d238f30c972"
-      (reference "SW302") (unit 1) (value "SW_BOOT0") (footprint "marco-ram-board:DTSMW69N")
+      (reference "SW302") (unit 1) (value "DTSMW69N") (footprint "marco-ram-board:DTSMW69N")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/da220396-55aa-4f49-8e3c-02bdafa9814d"
-      (reference "SW501") (unit 1) (value "BTN0") (footprint "marco-ram-board:DTSMW69N")
+      (reference "SW501") (unit 1) (value "DTSMW69N") (footprint "marco-ram-board:DTSMW69N")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/d71b6d92-5539-4d84-bf17-633f8ef176da"
-      (reference "SW502") (unit 1) (value "BTN1") (footprint "marco-ram-board:DTSMW69N")
+      (reference "SW502") (unit 1) (value "DTSMW69N") (footprint "marco-ram-board:DTSMW69N")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/17b7ba61-4404-4774-88b6-b65ccf73bd6d"
-      (reference "SW503") (unit 1) (value "BTN2") (footprint "marco-ram-board:DTSMW69N")
+      (reference "SW503") (unit 1) (value "DTSMW69N") (footprint "marco-ram-board:DTSMW69N")
     )
     (path "/ef3f0de9-deea-4baf-8cd2-112c438774cf/3b256020-5407-49ac-85db-08c5a0206452"
-      (reference "SW504") (unit 1) (value "BTN3") (footprint "marco-ram-board:DTSMW69N")
+      (reference "SW504") (unit 1) (value "DTSMW69N") (footprint "marco-ram-board:DTSMW69N")
     )
     (path "/7c962775-7ac8-4e55-b50e-b888d058fafd/8202d5b7-9330-44e4-962e-146bde81e018"
-      (reference "SW601") (unit 1) (value "PWR_SW") (footprint "marco-ram-board:SW_Slide_CuK_1101M2xxAxx2_SPDT_RightAngle")
+      (reference "SW601") (unit 1) (value "SW_Slide_CuK_1101M2xxAxx2_SPDT_RightAngle") (footprint "marco-ram-board:SW_Slide_CuK_1101M2xxAxx2_SPDT_RightAngle")
     )
     (path "/560cd6d2-0a02-4f8b-872b-85e24c6da3bb/a85ab2dd-ae80-4f7d-b111-8fdaab47915f"
       (reference "U201") (unit 1) (value "FT2232HL") (footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm")
