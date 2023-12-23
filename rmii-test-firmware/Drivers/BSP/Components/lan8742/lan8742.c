@@ -127,7 +127,7 @@ int32_t  LAN8742_RegisterBusIO(lan8742_Object_t *pObj, lan8742_IOCtx_t *ioctx)
      }
 
      char buf[64];
-     sprintf(buf, "address = %d\r\n", pObj->DevAddr);
+     sprintf(buf, "PHY address = %d\r\n", pObj->DevAddr);
      HAL_UART_Transmit(&huart3, buf, strlen(buf), 1000000);
      
      /* if device address is matched */
@@ -327,9 +327,9 @@ int32_t LAN8742_GetLinkState(lan8742_Object_t *pObj)
     return LAN8742_STATUS_READ_ERROR;
   }
 
-  char buf[64];
-  sprintf(buf, "BSR = %08x\r\n", readval);
-  HAL_UART_Transmit(&huart3, buf, strlen(buf), 1000000);
+  //char buf[64];
+  //sprintf(buf, "BSR = %08x\r\n", readval);
+  //HAL_UART_Transmit(&huart3, buf, strlen(buf), 1000000);
   
   if((readval & LAN8742_BSR_LINK_STATUS) == 0)
   {
@@ -342,8 +342,8 @@ int32_t LAN8742_GetLinkState(lan8742_Object_t *pObj)
   {
     return LAN8742_STATUS_READ_ERROR;
   }
-  sprintf(buf, "BCR = %08x\r\n", readval);
-  HAL_UART_Transmit(&huart3, buf, strlen(buf), 1000000);
+  //sprintf(buf, "BCR = %08x\r\n", readval);
+  //HAL_UART_Transmit(&huart3, buf, strlen(buf), 1000000);
   
   if((readval & LAN8742_BCR_AUTONEGO_EN) != LAN8742_BCR_AUTONEGO_EN)
   {
@@ -370,8 +370,8 @@ int32_t LAN8742_GetLinkState(lan8742_Object_t *pObj)
     {
       return LAN8742_STATUS_READ_ERROR;
     }
-    sprintf(buf, "PHY control 1 = %08x\r\n", readval);
-    HAL_UART_Transmit(&huart3, buf, strlen(buf), 1000000);
+    //sprintf(buf, "PHY control 1 = %08x\r\n", readval);
+    //HAL_UART_Transmit(&huart3, buf, strlen(buf), 1000000);
     
     /* Check if auto nego not done */
     if((readval & 0x7) == 0)

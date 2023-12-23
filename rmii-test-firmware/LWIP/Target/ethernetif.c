@@ -632,13 +632,13 @@ void ethernet_link_check_state(struct netif *netif)
   uint32_t linkchanged = 0U, speed = 0U, duplex = 0U;
 
   PHYLinkState = LAN8742_GetLinkState(&LAN8742);
-  char buf[64];
-  sprintf(buf, "Link state = %08x\r\n", PHYLinkState);
-  HAL_UART_Transmit(&huart3, buf, strlen(buf), 1000000);
+  //char buf[64];
+  //printf(buf, "Link state = %08x\r\n", PHYLinkState);
+  //HAL_UART_Transmit(&huart3, buf, strlen(buf), 1000000);
 
   if(netif_is_link_up(netif) && (PHYLinkState <= LAN8742_STATUS_LINK_DOWN))
   {
-    HAL_UART_Transmit(&huart3, "DN\r\n", 4, 1000000);
+    //HAL_UART_Transmit(&huart3, "DN\r\n", 4, 1000000);
     HAL_ETH_Stop(&heth);
     netif_set_down(netif);
     netif_set_link_down(netif);
@@ -670,11 +670,11 @@ void ethernet_link_check_state(struct netif *netif)
     default:
       break;
     }
-    HAL_UART_Transmit(&huart3, "U?\r\n", 4, 1000000);
+    //HAL_UART_Transmit(&huart3, "U?\r\n", 4, 1000000);
 
     if(linkchanged)
     {
-      HAL_UART_Transmit(&huart3, "UP\r\n", 4, 1000000);
+      //HAL_UART_Transmit(&huart3, "UP\r\n", 4, 1000000);
       /* Get MAC Config MAC */
       HAL_ETH_GetMACConfig(&heth, &MACConf);
       MACConf.DuplexMode = duplex;

@@ -111,7 +111,14 @@ int main(void)
     for (uint32_t t = HAL_GetTick(); HAL_GetTick()-t < 1000;) {
       MX_LWIP_Process();
     }
-    HAL_UART_Transmit(&huart3, "alive\r\n", 7, 1000000);
+    if (dhcp_supplied_address(&gnetif)) {
+      char buf[128];
+      sprintf(buf, "Alive, DHCP-assigned IP = %s\r\n", ip4addr_ntoa(netif_ip4_addr(&gnetif)));
+      HAL_UART_Transmit(&huart3, buf, strlen(buf), 1000000);
+    } else {
+      static const uint8_t msg[] = "Alive, no DHCP-assigned IP address\r\n";
+      HAL_UART_Transmit(&huart3, msg, strlen(msg), 1000000);
+    }
   }
   /* USER CODE END 3 */
 }
